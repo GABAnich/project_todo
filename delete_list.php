@@ -7,6 +7,6 @@
 		$db->deleteList($id);
 	}
 
-	header('Location: ' . $_SERVER['HTTP_REFERER']);
+    include("page_reload.html");
 
 ?>

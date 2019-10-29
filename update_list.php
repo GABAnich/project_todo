@@ -8,6 +8,6 @@
 		$db->updateList($id, $name);
 	}
 
-	header('Location: ' . $_SERVER['HTTP_REFERER']);
+    include("page_reload.html");
 
 ?>
